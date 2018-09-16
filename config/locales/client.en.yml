@@ -1,0 +1,61 @@
+en:
+  js:
+    babble:
+      preferences:
+        title: TrackChat v1.0
+        babble_disabled: Disable TrackChat completely
+        babble_sound: Enable browser sound for new chat notifications
+      typing:
+        single:  "%{first} is typing..."
+        double:  "%{first} and %{second} are typing..."
+        several: "several people are typing..."
+      position_left: Left
+      position_right: Right
+      placeholder: "How was your run today?"
+      send: "Send"
+      save: "Save"
+      flagged: "Flagged"
+      cancel: "Cancel"
+      title: "open a chat window for a quick conversation"
+      error_message: "Please enter a message!"
+      new_messages: "NEW MESSAGES"
+      failed_post: "Could not save that post. Please try again."
+      empty_topic_message: "No messages yet! Enter one below to get started."
+      topic_visibility_tooltip: "This chat is visible to: {{groupNames}}"
+      view_topics_tooltip: "View other chat channels"
+      view_chat_tooltip: "Back to the current chat"
+      select_topic: "Channels"
+      post_deleted_by: "Post deleted by {{username}}"
+      post_edited: (edited)
+      is_typing: "is typing..."
+      nav_title: "Chat"
+      load_more: "Load more"
+      loading_messages: "Loading messages..."
+      no_more_messages: "That's all there is!"
+      logged_out: "You haven't logged in! Please log in or create an account to participate"
+      go_to_chat: "Open full page chat"
+      expand_chat: Expand chat
+      compress_chat: Shrink chat
+      close_chat: Close chat
+      pms_title: Search TrackTalk Members:
+      pms_autocomplete: Enter a username...
+      groups_title: Groups
+      categories_title: Channels
+      admin:
+        disabled: "TrackChat has been disabled. Please re-enable it to continue."
+        new: "New Channel"
+        new_category: "New Channel"
+        none_selected: "Select a channel to get started"
+        title: "Channel Title"
+        permissions: "Permissions"
+        category: "Forum"
+        groups: "Group(s)"
+        category_label: "Channel is associated with the following Forum:"
+        allowed_groups_label: "Channel is visible to the following Groups:"
+        menu_title: "Chats"
+        page_title: "Chat Channels"
+        post_count: "Posts"
+        last_post: "Last post"
+        delete_confirm: "Are you sure you want to delete this channel? All chat history will be lost."
+        delete_failed: "Unable to delete that chat channel. Please try again."
+        save_failed: "Unable to save that chat channel. Please try again."

@@ -1,0 +1,34 @@
+{{#if disabled}}
+  <div class="babble-admin-disabled">{{i18n 'babble.admin.disabled'}}</div>
+{{else}}
+  <div class='row groups'>
+    <div class='content-list span6'>
+      <h3>{{i18n 'babble.admin.page_title'}}</h3>
+      {{#if model}}
+        <ul>
+          {{#each model as |topic|}}
+            <li>
+              {{#link-to 'adminChat' topic.id}}
+                {{#if topic.title}}
+                  {{topic.title}}
+                {{else}}
+                  {{category-badge-chat-list categoryId=topic.category_id}}
+                {{/if}}
+              {{/link-to}}
+            </li>
+          {{/each}}
+        </ul>
+      {{else}}
+        <p>{{i18n 'search.no_results'}}</p>
+      {{/if}}
+      <div class="controls">
+        {{#link-to 'adminChat' 'new' class="btn"}}
+          {{d-icon "plus"}} {{i18n 'babble.admin.new'}}
+        {{/link-to}}
+      </div>
+    </div>
+    <div class='content-editor'>
+      {{outlet}}
+    </div>
+  </div>
+{{/if}}

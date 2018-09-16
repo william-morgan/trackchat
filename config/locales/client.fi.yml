@@ -1,0 +1,22 @@
+fi:
+  js:
+    babble:
+      send: "Lähetä"
+      title: "Avaa pikaviestin välittömään keskusteluun"
+      error_message: "Kirjoita ensin viesti!"
+      failed_post: "Viestin tallentaminen epäonnistui. Ole hyvä ja yritä uudelleen."
+      empty_topic_message: "Tämä keskustelu ei ole vielä alkanut. Kirjoita viesti alle, niin päästään alkuun!"
+      topic_visibility_tooltip: "Tämän keskustelun näkevät: {{groupNames}}"
+      view_topics_tooltip: "Muut keskustelut"
+      view_chat_tooltip: "Takaisin keskusteluun"
+      admin:
+        new: "Uusi keskustelu"
+        none_selected: "Valitse keskustelu, niin pääset alkuun"
+        title: "Keskustelun otsikko"
+        menu_title: "Pikaviestin"
+        page_title: "Keskustelut"
+        post_count: "Viestejä"
+        last_post: "Viimeisin viesti"
+        delete_confirm: "Oletko varma, että haluat poistaa tämän keskustelun? Koko keskusteluhistoria hävitetään."
+        delete_failed: "Keskustelun poistaminen epäonnistui. Ole hyvä ja yritä uudelleen."
+        save_failed: "Keskustelun tallentaminen epäonnistui. Ole hyvä ja yritä uudelleen."
